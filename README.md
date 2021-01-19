@@ -48,6 +48,8 @@ On cherche à isoler les environnements les uns des autres tant que possible, po
  -L'environnement de production est utilisé par les clients, il doit rester disponible sur les plages horaires prévues,fournir un accés sécurisé en HTTPS et il supporte un traffic important.
 
 
-# Question 17 : https://oelgoubi-app-vercel-v2.vercel.app/
+# Question 18 :  https://oelgoubi-app-vercel-v2.vercel.app/
 
-# Question 
+# Question 19:
+Un pull request est une fonctionalié qui permet de faciliter la collaboration entre les développeurs qui travaillent sur le même projet , il est en fait une demande de pull (ajout) d'un code au répertoire faite par un memebre de l'équipe. Le code produit peut servir à corriger certains bugs ou l'ajout des nouvelles fonctionalités à l'application. Les autres collaborateurs doivent analyser ces changement , les tester et ensuite les intégrer au projet.
+
