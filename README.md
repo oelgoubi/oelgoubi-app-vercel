@@ -53,3 +53,18 @@ On cherche à isoler les environnements les uns des autres tant que possible, po
 # Question 19:
 Un pull request est une fonctionalié qui permet de faciliter la collaboration entre les développeurs qui travaillent sur le même projet , il est en fait une demande de pull (ajout) d'un code au répertoire faite par un memebre de l'équipe. Le code produit peut servir à corriger certains bugs ou l'ajout des nouvelles fonctionalités à l'application. Les autres collaborateurs doivent analyser ces changement , les tester et ensuite les intégrer au projet.
 
+Aprés la création de mon pull request, vercel a bien pris mes changements en compte et il a déployer l'application dans un environnement de pré-production et finalement, il m'a fournit un lien pour accéder à l'application, voir les changements pour les valider avant de les intégrer dans le code dédié à l'environnement de production.
+
+# Question 20 :
+Une foit la pull request a été fusionné avec la branche master , vercel l'a détécté et il a redéployer l'application dans l'environnement de production.
+
+# Question 21 :
+- L'environnement de production correspond à la branche master
+
+- L'intéret d'utiliser des pull requests sur un projet est de analyser le code produit par chaque membre de l'équipe de développement , le tester puis le valider avant de l'intéger au code du projet.
+Ils permettent aussi de déclencher les processus de déploiment gérés par vercel.
+
+- Dans 
+
+
+# BONUS : inspect nous permet d'inspecter l'appli une fois déployé , et logs nous permet de voir les logs qui ont été générés lors du processus de déploiment.
