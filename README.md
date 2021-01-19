@@ -8,3 +8,44 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   ng new oelgoubi-app
 
 # Question 6 : Déployer l'application dans vercel 
+  vercel deploy
+
+# Question 7 : lister les différents déploiements
+   vercel ls
+
+# Question 8 : afficher les logs liés au déploiement précédent
+  vercel logs oelgoubi-app-q46r8wkfk.vercel.app
+
+# Question 9 : La commande inspect sert à afficher les informations relatives à un déploiement
+    Pour l'utiliser , on peut passer l'url unique du déploiment :
+    vercel inspect oelgoubi-app-q46r8wkfk.vercel.app
+
+# Question 10 :
+ Les Varibales d'environnement sont généralement utilisées pour définir la configuration d'un application, par exemple : rensigner la configuration d'une base de données ( nom d'utilisteur , mot de passe et le nom de la base de donnée) ou des TOKENS qui nous permettent  de consommer une API. Donc l'objectif est de séparer la configuration requise par un environnement de production de celle requise par un environnement de développement.
+
+# Question 11 : créer une variable d'evironnement et renseigner sa valeur.
+  vercel env add plain MY_VAR production
+# Question 12 : lister les variables d'environnement sur le projet
+  vercel env ls
+
+# Question 13 : 
+La commande "vercel secrets" est utilisée pour gérer les secrets utilisés dans les variables d'environnement, les secrets sont des informations sensibles que nous voudrions protégées.
+
+
+# Question 15 : Créez une variable d'env de type secret
+  vercel secrets add MYSQLDB_PASS mysqldbPass213
+
+# Question 16 : Les trois environnements que vercel nous met à diposition sont : 
+- Développement 
+- Preview (environnement de prévisualisation ou pré-production)
+- Production 
+
+On cherche à isoler les environnements les uns des autres tant que possible, pour plusieurs raisons :
+- Chaque environnement a un but précis, requiert des performances,des données et des utilisateurs précises.
+6 
+-L'environnement de développement est utilisé tout au long de la phase de développement de l'application ( développement d’une ou plusieurs fonctionalités et des tests associés )
+-L'environnement de pré-production est un environnement intermédiaire utilisé après le développement  , et avant la mise en production, il nous permet d'obtenir des résultats de tests pertinents.
+-L'environnement de production est utilisé par les clients, il doit rester disponible sur les plages horaires prévues,fournir un accés sécurisé en HTTPS et il supporte un traffic important.
+
+
+# Question 17 : 
