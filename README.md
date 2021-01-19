@@ -43,9 +43,9 @@ La commande "vercel secrets" est utilisée pour gérer les secrets utilisés dan
 On cherche à isoler les environnements les uns des autres tant que possible, pour plusieurs raisons :
 - Chaque environnement a un but précis, requiert des performances,des données et des utilisateurs précises.
 6 
--L'environnement de développement est utilisé tout au long de la phase de développement de l'application ( développement d’une ou plusieurs fonctionalités et des tests associés )
--L'environnement de pré-production est un environnement intermédiaire utilisé après le développement  , et avant la mise en production, il nous permet d'obtenir des résultats de tests pertinents.
--L'environnement de production est utilisé par les clients, il doit rester disponible sur les plages horaires prévues,fournir un accés sécurisé en HTTPS et il supporte un traffic important.
+ -L'environnement de développement est utilisé tout au long de la phase de développement de   l'application ( développement d’une ou plusieurs fonctionalités et des tests associés )
+ -L'environnement de pré-production est un environnement intermédiaire utilisé après le développement  , et avant la mise en production, il nous permet d'obtenir des résultats de tests pertinents.
+ -L'environnement de production est utilisé par les clients, il doit rester disponible sur les plages horaires prévues,fournir un accés sécurisé en HTTPS et il supporte un traffic important.
 
 
 # Question 17 : 
